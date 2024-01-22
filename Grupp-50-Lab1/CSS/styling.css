@@ -147,6 +147,7 @@
      
      background-color:antiquewhite;
      border-color: black;
+     hover: background-color: #0077b6;
      border-style: groove;
      border-left: 0px;
      width:50%;
@@ -155,6 +156,10 @@
      
      
  
+ }
+
+ text1:hover {
+     background-color: #0077b6;
  }
  
  #maplink {
