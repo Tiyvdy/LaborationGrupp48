@@ -171,3 +171,14 @@ iframe {
     padding-left: 10px;
 }
 
+table {
+    width: 50%;
+    border: 2px solid black;
+    font-size: larger;
+}
+
+
+th, td {
+    border:2px solid black;
+
+}
