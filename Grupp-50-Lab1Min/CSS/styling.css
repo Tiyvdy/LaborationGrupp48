@@ -182,3 +182,64 @@ th, td {
     border:2px solid black;
 
 }
+
+nav>ul.inform{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 120px;
+    background-color: lightseagreen;
+    font-weight: bold; 
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ul.inform>li {
+    position: relative;
+}
+ul.inform>li>a {
+    display: block;
+    padding: 10px;
+    color: inherit;
+    text-decoration: none;  
+}
+
+ul.inform>li:hover>a {
+    background-color: rgb(77, 168, 160);
+}
+ul.inform>li>ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top:0;
+    margin-bottom: 0;
+    background-color:lightseagreen;
+    position: absolute;
+    left: -53px; 
+    top: 100%;
+    width: 230px;
+    display: none; 
+      
+}
+ul.inform>li>ul>li>a {
+    text-decoration: none;
+}
+
+ul.inform>li:hover>ul {
+    display: block;
+}
+
+footer {
+    background-color: bisque;
+    text-align: center;
+    padding: 3px;
+    color: chocolate;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+
+ }
+    
+    
+    
+
